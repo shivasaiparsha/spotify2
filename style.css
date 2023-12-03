@@ -333,10 +333,11 @@ padding-left: 8px !important;
     color: var(--primary-color);
   }
   .song-bar {
-    position: absolute;
+    
     left: var(--padding);
     display: flex;
     flex-direction: row;
+    position: fixed;
     align-items: center;
     justify-content: flex-start;
     gap: 1.5rem;
